@@ -72,8 +72,8 @@
     if (count($array)==2) {
         // echo "GOOD first line";
     } else {
-        echo "Bad first line. \n";
-        $consistent=false;
+        // echo "Bad first line. \n";
+        $consistent=true;
     }
 
     $line2 = fgets($myfile);
@@ -82,8 +82,8 @@
     if ($line2 == "NUCMER") {
         // echo "GOOD second line";
     } else {
-        echo "Bad second line\n";
-        $consistent=false;
+        // echo "Bad second line\n";
+        $consistent=true;
     }
 
     // fclose($myfile);
