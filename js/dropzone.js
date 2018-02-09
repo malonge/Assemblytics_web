@@ -138,7 +138,7 @@
       previewsContainer: null,
       hiddenInputContainer: "body",
       capture: null,
-      dictDefaultMessage: "Drop delta file here to upload",
+      dictDefaultMessage: "Drop minimap2 SAM file here to upload",
       dictFallbackMessage: "Your browser does not support drag'n'drop file uploads.",
       dictFallbackText: "Please use the fallback form below to upload your files like in the olden days.",
       dictFileTooBig: "test File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.",
