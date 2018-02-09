@@ -4,7 +4,9 @@
     $code = escapeshellcmd($_POST["code_hidden"]);
     $name = "./user_uploads/" . $code;
     
-    move_uploaded_file($_FILES['file']['tmp_name'], $name);
+    echo move_uploaded_file($_FILES['file']['tmp_name'], $name);
+
+    echo 'test'
 
     ////for debugging:
     //file_put_contents( 'yowtf', print_r($_POST["code_hidden"], true));

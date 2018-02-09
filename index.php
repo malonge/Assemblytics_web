@@ -127,7 +127,7 @@ Dropzone.options.myAwesomeDropzone = {
     console.log("uploaded");
     done();
   },
-  maxFilesize: 2000, // in MiB
+  maxFilesize: 100000, // in MiB
   init: function() {
     this.on("addedfile", function() {
       if (this.files[1]!=null){
