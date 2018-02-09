@@ -52,7 +52,7 @@
                                       	<form action="file_upload.php"
                                       	    class="dropzone"
                                       	    id="myAwesomeDropzone">
-                                            <!-- <div class="dz-message" data-dz-message><span>Drop delta file here</span></div> -->
+                                            <!-- <div class="dz-message" data-dz-message><span>Drop minimap2 SAM file here</span></div> -->
                                       	    <input type="hidden" name="code_hidden" value="">
                                       	</form>
                                         <!--   end of DROPZONE   -->
